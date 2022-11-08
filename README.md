@@ -19,7 +19,6 @@ I installed GCP. Created a MHN Admin VM. Setip the GCP Firewall and followed ins
 **Summary:** Briefly in your own words, what does dionaea do?
 Dionaea exposes vulnerabilities so scanning tools like nmap or any other vulnerability scanner can detect and use the breadcrums that are being left by a potencial hacker. MHN is an open source framework that helps users view hacker attacks and manage snort/sniffing rules, deploy scripts, connect, register, send intrusion logs, and Dinaea is the vulnerable server that is reachable in public domain.
 
-![image](https://user-images.githubusercontent.com/39965728/200491498-ed3a2220-2122-48ae-80c5-964a4e71d66c.png)
 
 
 ### Database Backup (Required) 
