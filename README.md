@@ -11,7 +11,8 @@
 I installed GCP. Created a MHN Admin VM. Setip the GCP Firewall and followed instructions for deploying.
 
 
-![image](https://user-images.githubusercontent.com/39965728/200490391-23e05da0-23d2-4199-8480-b9e1ebbdfd11.png)
+![image](https://user-images.githubusercontent.com/39965728/200491354-c70c4838-fcd9-4a46-8eab-21ba93aeb73c.png)
+
 
 ### Dionaea Honeypot Deployment (Required)
 
