@@ -8,14 +8,15 @@
 ### MHN-Admin Deployment (Required)
 
 **Summary:** How did you deploy it? Did you use GCP, AWS, Azure, Vagrant, VirtualBox, etc.?
-I used GCP by following the guide in the project instructions
+I installed GCP. Created a MHN Admin VM. Setip the GCP Firewall and followed instructions for deploying.
 
 
+![image](https://user-images.githubusercontent.com/39965728/200490391-23e05da0-23d2-4199-8480-b9e1ebbdfd11.png)
 
 ### Dionaea Honeypot Deployment (Required)
 
 **Summary:** Briefly in your own words, what does dionaea do?
-Dionnaea can create vulnerabilities that tools like nmap or other vulnerability scanner can easily find and use the "clues" that left by the attacker to attack back or do something else. MHN is an open source framework that help user to view attacks and manage snort/sniffing rules, deploy scripts, connect, register, send intrusion logs, and dinaea is the vulnerable server that reachable in public domin.
+Dionaea exposes vulnerabilities so scanning tools like nmap or any other vulnerability scanner can detect and use the breadcrums that are being left by a potencial hacker. MHN is an open source framework that helps users view hacker attacks and manage snort/sniffing rules, deploy scripts, connect, register, send intrusion logs, and Dinaea is the vulnerable server that is reachable in public domain.
 
 
 
@@ -24,7 +25,7 @@ Dionnaea can create vulnerabilities that tools like nmap or other vulnerability 
 **Summary:** What is the RDBMS that MHN-Admin uses? What information does the exported JSON file record?
 
 MHN-Admin uses MongoDB
-In the JSON file, it contains protocal's name, time of attack, source ip, source and destination port, identifier and the name of honeypot
+In the JSON file, it contains the protocol's name, time of attack, source ip, source and destination port, identifier and the name of honeypot
 
 The JSON file is in the same repository
 
